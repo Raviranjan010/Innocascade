@@ -98,7 +98,7 @@ $recent_ideas = $stmt->get_result();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile - InnoCascade</title>
+    <title>Profile - InnoCascade rrk</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
@@ -198,7 +198,7 @@ $recent_ideas = $stmt->get_result();
 
         .btn-signup, .btn-logout {
             background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
-            color: #fff;
+            color: blue;
             border: none;
         }
 
@@ -453,4 +453,5 @@ $recent_ideas = $stmt->get_result();
 
     <?php include 'includes/footer.php'; ?>
 </body>
+
 </html> 
