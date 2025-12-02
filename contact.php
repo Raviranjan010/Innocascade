@@ -175,7 +175,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             color: var(--light-color);
         }
 
-        /* Header Styles to match the image */
+        /* Header Styles to match the image. */
         .header {
             position: fixed;
             top: 0;
@@ -557,7 +557,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         }
 
         .decoration-circle-3 {
-            width: 150px;
+            width: 140px;
             height: 150px;
             top: 30%;
             right: 15%;
