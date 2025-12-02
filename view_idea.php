@@ -190,7 +190,7 @@ if(isset($_POST['toggle_collaboration']) && isset($_SESSION['loggedin']) && $_SE
         }
 
         .author-avatar {
-            width: 60px;
+            width: 50px;
             height: 60px;
             border-radius: 50%;
             overflow: hidden;
@@ -534,4 +534,5 @@ if(isset($_POST['toggle_collaboration']) && isset($_SESSION['loggedin']) && $_SE
         });
     </script>
 </body>
+
 </html> 
