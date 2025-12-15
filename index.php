@@ -15,7 +15,7 @@ session_start();
             --primary-color: #ff5a1f;
             --secondary-color: #8e24aa;
             --accent-color: #ff3d00;
-            --text-color: #ffffff;
+            --text-color: #ffff0f;
             --dark-bg: #101010;
             --card-bg: rgba(30, 30, 40, 0.85);
             --gradient-start: rgba(255, 90, 31, 0.8);
@@ -148,6 +148,7 @@ session_start();
             max-width: 800px;
             position: relative;
             z-index: 2;
+            
         }
 
         .hero h1 {
@@ -264,7 +265,7 @@ session_start();
             align-items: center;
             justify-content: center;
             margin-bottom: 1.5rem;
-            box-shadow: 0 5px 15px rgba(255, 90, 31, 0.3);
+            box-shadow: 0 5px 15px rgba(251, 93, 31, 0.3);
         }
 
         .feature-icon i {
@@ -661,4 +662,5 @@ session_start();
         });
     </script>
 </body>
+
 </html>
