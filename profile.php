@@ -236,6 +236,7 @@ $recent_ideas = $stmt->get_result();
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 1.5rem;
             margin-top: 2rem;
+            
         }
 
         .stat-card {
@@ -253,7 +254,7 @@ $recent_ideas = $stmt->get_result();
         .stat-card h3 {
             color: var(--text-muted);
             font-size: 0.9rem;
-            margin-bottom: 0.5rem;
+            margin-bottom: 0.7rem;
         }
 
         .stat-card .number {
@@ -265,7 +266,7 @@ $recent_ideas = $stmt->get_result();
         }
 
         .profile-form {
-            background: rgba(255, 255, 255, 0.05);
+            background: rgba(255, 255, 250, 0.05);
             backdrop-filter: blur(10px);
             border-radius: 1rem;
             padding: 2rem;
@@ -445,7 +446,8 @@ $recent_ideas = $stmt->get_result();
                 <div class="idea-card">
                     <h3><?php echo htmlspecialchars($idea['title']); ?></h3>
                     <p><?php echo htmlspecialchars(substr($idea['description'], 0, 150)) . '...'; ?></p>
-                    <small>Posted on: <?php echo date('F j, Y', strtotime($idea['created_at'])); ?></small>
+                    <small>Posted on : <?php echo date('F j, Y', strtotime($idea['created_at'])); ?></small>
+                    
                 </div>
             <?php endwhile; ?>
         </div>
@@ -455,3 +457,4 @@ $recent_ideas = $stmt->get_result();
 </body>
 
 </html> 
+
