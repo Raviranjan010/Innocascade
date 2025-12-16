@@ -20,12 +20,14 @@ session_start();
             --card-bg: rgba(30, 30, 40, 0.85);
             --gradient-start: rgba(255, 90, 31, 0.8);
             --gradient-end: rgba(142, 36, 170, 0.8);
+            
         }
 
         * {
-            margin: 0;
+            margin: 0.2;
             padding: 0;
             box-sizing: border-box;
+            
         }
 
         body {
@@ -151,6 +153,7 @@ session_start();
             
         }
 
+        
         .hero h1 {
             font-size: 3.5rem;
             color: #fff;
@@ -664,3 +667,4 @@ session_start();
 </body>
 
 </html>
+
