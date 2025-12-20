@@ -675,12 +675,13 @@ session_start();
                         </div>
                     </div>
                     <div class="member-info">
-                        <h3>Ravi Ranjan</h3>
+                        <h3>Ravi Ranjan Kashyap</h3>
                         <p class="member-role">Project Lead & Developer</p>
                         <div class="member-skills">
                             <span>PHP</span>
                             <span>MySQL</span>
                             <span>Laravel</span>
+                            <span>AI</span>
                         </div>
                         <div class="social-links">
                             <a href="https://www.linkedin.com/in/ravi-web-developer/" class="social-link linkedin"><i class="fab fa-linkedin"></i></a>
@@ -708,6 +709,7 @@ session_start();
                             <span>Node.js</span>
                             <span>MongoDB</span>
                             <span>AWS</span>
+                            <span>Cloud</span>
                         </div>
                         <div class="social-links">
                             <a href="https://www.linkedin.com/in/rohan2004/" class="social-link linkedin"><i class="fab fa-linkedin"></i></a>
@@ -808,4 +810,5 @@ session_start();
         </div>
     </footer>
 </body>
+
 </html>
