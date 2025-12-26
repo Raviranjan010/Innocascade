@@ -44,6 +44,7 @@ switch($sort) {
         $sql .= " ORDER BY i.created_at DESC";
 }
 
+
 $result = mysqli_query($conn, $sql);
 ?>
 
@@ -507,4 +508,5 @@ $result = mysqli_query($conn, $sql);
         });
     </script>
 </body>
+
 </html> 
