@@ -14,7 +14,8 @@ $sql = "SELECT i.*, u.username, COUNT(DISTINCT c.id) as comment_count, COUNT(DIS
         LEFT JOIN comments c ON i.id = c.idea_id 
         LEFT JOIN collaborations col ON i.id = col.idea_id";
 
-// Add filters
+// Add filters !
+
 $where_conditions = array();
 if(!empty($sector_filter)) {
     $where_conditions[] = "i.sector = '" . mysqli_real_escape_string($conn, $sector_filter) . "'";
@@ -510,3 +511,4 @@ $result = mysqli_query($conn, $sql);
 </body>
 
 </html> 
+
