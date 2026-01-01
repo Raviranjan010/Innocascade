@@ -1,5 +1,5 @@
 <?php
-// Initialize the session
+// Initialize the session1
 session_start();
 
 // Unset all session variables
@@ -11,4 +11,5 @@ session_destroy();
 // Redirect to login page
 header("location: login.php");
 exit;
+// 
 ?> 
